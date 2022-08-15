@@ -13,7 +13,7 @@ app.use(bodyparser.json());
 app.use(express.static('./dist/library'))
 
 
-app.get('/',(req,res)=>{
+app.get('/api/',(req,res)=>{
     res.send('god bless you');
 })
 
