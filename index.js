@@ -147,7 +147,7 @@ app.get('/*',(req,res)=>{
 })
 
 //SERVER SET
-app.listen(9000,(req,res)=>{
-    console.log('sever started on '+9000);
+app.listen(process.env.PORT||9000,(req,res)=>{
+    console.log('Hi,I am listening');
 })
 
